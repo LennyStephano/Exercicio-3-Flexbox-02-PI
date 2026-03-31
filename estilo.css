@@ -1,0 +1,89 @@
+/* ========================================== */
+/* ESTILOS BASE (Já fornecidos no projeto)    */
+/* ========================================== */
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+}
+
+.box1 {
+    background-color: #63b1bc;
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+
+/* ========================================== */
+/* RESOLUÇÃO DOS EXERCÍCIOS DE FLEXBOX        */
+/* ========================================== */
+
+/* --- PARTE A --- */
+
+.container1 {
+    display: flex;               /* Transforma o contêiner em uma caixa flexível */
+    justify-content: flex-start; /* 1. Alinha os itens junto à borda de início (esquerda) */
+}
+
+.container2 {
+    display: flex;               /* Transforma o contêiner em uma caixa flexível */
+    justify-content: flex-end;   /* 2. Alinha os itens junto à borda final (direita) */
+}
+
+.container3 {
+    display: flex;               /* Transforma o contêiner em uma caixa flexível */
+    justify-content: center;     /* 3. Centraliza os itens na linha */
+}
+
+.container4 {
+    display: flex;                   /* Transforma o contêiner em uma caixa flexível */
+    justify-content: space-between;  /* 4. Distribui os itens colando o primeiro no início e o último no fim */
+}
+
+.container5 {
+    display: flex;                 /* Transforma o contêiner em uma caixa flexível */
+    justify-content: space-around; /* 5. Distribui os itens com o mesmo espaçamento ao redor de cada um */
+}
+
+.container6 {
+    display: flex;                 /* Transforma o contêiner em uma caixa flexível */
+    justify-content: space-evenly; /* 6. Distribui os itens com espaçamento estritamente igual entre eles */
+}
+
+/* --- PARTE B --- */
+
+.container-exercicioB {
+    display: flex;                   /* Transforma o contêiner em uma caixa flexível */
+    flex-direction: column-reverse;  /* Empilha verticalmente de baixo para cima (inverte a ordem 1,2,3,4 para 4,3,2,1) */
+}
+
+/* --- DESAFIO --- */
+
+.container-desafio {
+    display: flex;                /* Transforma o contêiner em uma caixa flexível */
+    flex-direction: row-reverse;  /* Mantém em linha, mas desenha da direita para a esquerda, grudando o último na esquerda */
+}
